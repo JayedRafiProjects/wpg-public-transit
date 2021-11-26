@@ -8,3 +8,27 @@
 	font-size: 25px;
 	text-align: center;
 }
+
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6800e1;
+  font-family: 'Lato', sans-serif;
+}
+.menu-item {
+  float: left;
+}
+
+.menu-item a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu-item a:hover{
+  background-color: white;
+  color: #6800e1;
+}
