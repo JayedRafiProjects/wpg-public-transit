@@ -8,6 +8,6 @@ req.send();
 req.addEventListener("load", function(){
 	if(req.status == 200 && req.readyState == 4){
   	var response = JSON.parse(req.responseText);
-    document.getElementById("stop").textContent = response.stop;
+    document.getElementById("stop").textContent = response.stop;   
   }
 })
